@@ -1,0 +1,13 @@
+alias cdw='cd ~/workspace'
+
+function take() {
+	mkdir $1
+	cd $1
+}
+
+alias v='vim'
+
+APPS_PATH='~/apps'
+alias sublime=${APPS_PATH}'/sublime/sublime_text'
+alias	eclipse=${APPS_PATH}'/eclipse/eclipse'
+
